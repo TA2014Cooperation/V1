@@ -5,8 +5,7 @@ public class Main {
 		
 		
 		Character Ulf = new Character();
-		
-		Ulf.
+
 		
 				
 		

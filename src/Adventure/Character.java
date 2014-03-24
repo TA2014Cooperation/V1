@@ -9,7 +9,7 @@ public class Character {
 	int HP;
 	
 	int Attack = STR + (10*INT)/STR; 
-	int Abwehr = VERT;
+	int Abwehr = (int) (VERT + (0.25 * INT));
 	
 	
 	

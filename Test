@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class Betrag
+{
+
+	public static void main(String[] args)
+	{
+	Scanner eingabe = new Scanner(System.in);
+	int zahl = eingabe.nextInt();
+	
+	if (zahl > 0)
+	{
+		System.out.println(zahl);
+	}
+	else
+	{
+		System.out.println((zahl-(zahl*2)));
+	}
+	eingabe.close();
+	}
+
+}

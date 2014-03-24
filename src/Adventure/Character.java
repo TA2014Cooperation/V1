@@ -14,21 +14,5 @@ public class Character {
 	//int Attack = STR + (10*INT)/STR; 
 	//int Abwehr = (int) (VERT + (0.25 * INT));
 	
-	public int[][] getPosition(){
-		
-		
-		
-		
-		return Position;
-		
-	}
-	
-	
-	
-	
-	
-	
-	
-	
 
 }

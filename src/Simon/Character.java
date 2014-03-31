@@ -1,4 +1,4 @@
-package Adventure;
+package Simon;
 
 public class Character {
 
@@ -9,7 +9,6 @@ public class Character {
 	int HP;
 
 	int[][] Position;
-	
 
 	public String getName() {
 		return Name;
@@ -59,15 +58,7 @@ public class Character {
 		Position = position;
 	}
 
-	public int getAttack() {
+	// int Attack = STR + (10*INT)/STR;
+	// int Abwehr = (int) (VERT + (0.25 * INT));
 
-		int Attack = (int) STR + (10 * INT) / STR;
-		return Attack;
-	}
-
-	public int getAbwehr() {
-
-		int Abwehr = (int) (VERT + (0.25 * INT));
-		return Abwehr;
-	}
 }
